@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\small
+\setlength{\tabcolsep}{5pt}
+\caption{Projected Bellman gradient estimation. Parentheses report Monte Carlo 95\% error bars.}
+\label{tab:generated-bellman-b1-gradient}
+\begin{tabular}{lccccc}
+\toprule
+$n$ & Plug-in & OBiGrad & Oracle DR & DR coverage & Product bias \\
+\midrule
+200 & 0.0862 (0.0188) & 0.0486 (0.0074) & 0.0314 (0.0018) & 0.949 (0.016) & 0.043 \\
+400 & 0.0511 (0.0161) & 0.0262 (0.0030) & 0.0216 (0.0014) & 0.951 (0.019) & 0.020 \\
+800 & 0.0208 (0.0025) & 0.0167 (9.87e-4) & 0.0157 (8.33e-4) & 0.956 (0.017) & 0.007 \\
+1600 & 0.0124 (8.15e-4) & 0.0112 (6.55e-4) & 0.0112 (6.37e-4) & 0.961 (0.015) & 0.003 \\
+3200 & 0.0081 (4.70e-4) & 0.0080 (4.46e-4) & 0.0079 (4.36e-4) & 0.959 (0.016) & 0.002 \\
+\bottomrule
+\end{tabular}
+\end{table}
